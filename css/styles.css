@@ -147,6 +147,10 @@ header {
     padding: 1em;
 }
 
+.logo {
+    max-width: 200px;
+}
+
 .nav {
     position: fixed;
     background: var(--clr-dark);
