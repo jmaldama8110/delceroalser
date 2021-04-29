@@ -140,7 +140,6 @@ h3 {
 
 
 /* header */
-
 header {
     display: flex;
     justify-content: space-between;
@@ -186,9 +185,7 @@ header {
     color: var(--clr-accent);
 }
 
-
 /* hamburguer*/
-
 .nav-toggle {
     padding: 0.5em;
     background: transparent;
