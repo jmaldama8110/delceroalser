@@ -48,6 +48,9 @@ body {
 section {
     padding: 5em 2em;
 }
+.mision {
+    text-align: center;
+}
 
 img {
     display: block;
