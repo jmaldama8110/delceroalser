@@ -32,8 +32,8 @@
     <nav class="nav">
         <ul class="nav__list">
             <li class="nav__item"><a href="#home" id="" class="nav__link">Inicio</a></li>
-            <li class="nav__item"><a href="#services" id="" class="nav__link">Servicios</a></li>
             <li class="nav__item"><a href="#about" id="" class="nav__link">Quienes Somos</a></li>
+            <li class="nav__item"><a href="#services" id="" class="nav__link">Servicios</a></li>
             <li class="nav__item"><a href="#work" id="" class="nav__link">Nuestro trabajo</a></li>
         </ul>
     </nav>
@@ -41,7 +41,7 @@
 </header>
 
 <body>
-    <div class="carousel-container">
+    <div class="carousel-container" id="home">
         <div class="carousel">
 
             <div class="slider">
@@ -71,29 +71,111 @@
 
         </div>
     </div>
-
-
-
     <!-- Introduccion -->
-    <section class="intro" id="home">
+    <!-- <section class="intro" id="home">
 
-        <!-- <h1 class="section__title section__title--intro">
+        <h1 class="section__title section__title--intro">
             <strong>Hola!</strong> Somos Cero
 
         </h1>
 
         <p class="section__subtitle section__subtitle--intro">Asesores de coaching</p>
 
-        <img src="img/marce.jpeg" alt="" class="intro__img" id=""> -->
+        <img src="img/marce.jpeg" alt="" class="intro__img" id="">
+
+
+    </section> -->
+
+    <!--Acerca de nosotros-->
+    <section class="about-me" id="about">
+
+
+
+        <h1 class="section__title section__title--intro">
+            Marcela Orantes
+        </h1>
+        <!-- <p class="section__subtitle section__subtitle--about">
+            Marcela Orantes
+        </p> -->
+
+        <div class="about-me__body">
+            
+            <p class="section__subtitle section__subtitle--about">
+                Propósito
+            </p>
+            <p>
+                Mi propósito radica en la satisfacción que nace de mi por el trabajo con las personas 
+                que me permite ampliar mi mentalidad con responsabilidad, madurez y fortaleza para crear 
+                un cambio positivo y desarrollar lo mejor de ella mismas.
+            </p>
+            <p class="section__subtitle section__subtitle--about">
+                Valores
+            </p>
+            <p>
+            <ul>
+                <li>Inclusión</li>
+                <li>Integridad</li>
+                <li>Valor Humano</li>
+                <li>Valentia</li>
+            </ul>
+
+            </p>
+
+        </div>
+        <img src="img/marce2.jpeg" class="about-me__img" alt="">
 
 
     </section>
+
+    <section class="about-me" >
+        <h2 class="section__title section__title--about"></h2>
+
+        <h1 class="section__title section__title--intro">
+            Jorge Grajales
+        </h1>
+        <div class="about-me__body">
+
+            <p class="section__subtitle section__subtitle--about">
+                Propósito
+            </p>
+            <p>
+                Vivir mi vida siempre con pasión para crear una satisfacción que me llene de alegría 
+                saliendo de mi zona de confort, con valentía, trabajo duro, esforzandome y siguiendo mi corazón, 
+                valorando las cosas que me rodean.
+            </p>
+            <p class="section__subtitle section__subtitle--about">
+                Valores
+            </p>
+            <p>
+            <ul>
+                <li>Disciplina</li>
+                <li>Fortaleza</li>
+                <li>Datos duros</li>
+                <li>Valor de conocimiento</li>
+            </ul>
+
+            </p>
+
+        </div>
+        <img src="img/jorge.jpg" class="about-me__img" alt="">
+
+    </section>
+
+
 
     <!-- Servicios -->
     <section class="my-services" id="services">
         <h2 class="section__title section__title--services">¿Que hacemos?</h2>
         <div class="services">
+            <div class="service">
+                <h3>Coaching</h3>
+                <ul>
+                    <li>Individual</li>
+                    <li>Equipo</li>
 
+                </ul>
+
+            </div>
             <div class="service">
                 <h3>Consultoria</h3>
                 <ul>
@@ -118,6 +200,15 @@
 
                 <!--service-->
             </div>
+            <div class="service">
+                <h3>Ponencias</h3>
+                <p>
+                    Compartir aprendizaje que lleve a los participantes a la reflexión
+                </p>
+
+                <!--service-->
+            </div>
+
 
         </div>
 
@@ -125,73 +216,7 @@
 
     </section>
 
-    <!--Acerca de nosotros-->
-    <section class="about-me" id="about">
 
-        <h2 class="section__title section__title--about">¿Quienes somos?</h2>
-        <p class="section__subtitle section__subtitle--about">
-            Marcela Orantes
-        </p>
-        <div class="about-me__body">
-            <p>Crear cambios positivos en los individuos por medio del trabajo duro, pasión y alegría
-            </p>
-            <p class="section__subtitle section__subtitle--about">
-                Vision
-            </p>
-            <p>
-                Generar bienestar a travéz de nuestros servicios de coaching y consultoría en nuestra región siendo una
-                empresa plenamente humana.
-            </p>
-            <p class="section__subtitle section__subtitle--about">
-                Valores
-            </p>
-            <p>
-            <ul>
-                <li>Inclusión</li>
-                <li>Integridad</li>
-                <li>Valor Humano</li>
-                <li>Valentia</li>
-            </ul>
-
-            </p>
-
-        </div>
-        <img src="img/marce2.jpeg" class="about-me__img" alt="">
-
-
-    </section>
-
-    <section class="about-me" >
-        <h2 class="section__title section__title--about"></h2>
-        <p class="section__subtitle section__subtitle--about">
-            Jorge Grajales
-        </p>
-        <div class="about-me__body">
-            <p>Crear hábitos positivos por medio de rutinas, disciplina y fuerza de voluntad
-            </p>
-            <p class="section__subtitle section__subtitle--about">
-                Vision
-            </p>
-            <p>
-                Ser uno de los mejores couchs personales que generen cambios profundos en el día a dia de las personas
-            </p>
-            <p class="section__subtitle section__subtitle--about">
-                Valores
-            </p>
-            <p>
-            <ul>
-                <li>Disciplina</li>
-                <li>Fortaleza</li>
-                <li>Datos duros</li>
-                <li>Valor de conocimiento</li>
-            </ul>
-
-            </p>
-
-        </div>
-        <img src="img/jorge.jpg" class="about-me__img" alt="">
-
-    </section>
 
     <!-- Nuestro trabajo -->
     <section class="my-work" id="work">

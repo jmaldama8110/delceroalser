@@ -186,40 +186,44 @@ header {
     color: var(--clr-accent);
 }
 
+
+
 /* Carousel styling*/
 
 .carousel-container {
     width: 100%;
     margin: 10px auto;
+
+    
 }
 
 .carousel {
-    border: 1px solid black;
+    
     height: auto;
     position: relative;
     overflow: hidden;
 }
 
 .slider {
+    
     display: flex;
     justify-content: space-between;
-    
-    height: auto;
+    margin: auto;
+    height: 350px;
     width: 400%;
     transition: all 0.3s;
 }
 .slider section {
     padding: 0;
     width: 100%;
-    height: 300px;
-    text-align: center;
-    
+    max-height: 250;
+    background:black;
 }
 .slider section img {
-    
-    width: 100%;
-    height: auto;
-    
+    width: auto;
+    height: 100%;
+    border: 1px solid black;    
+    margin:auto;
 }
 
 .controls .arrow {
